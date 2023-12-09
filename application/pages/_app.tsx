@@ -28,6 +28,7 @@ function MyApp({ Component, pageProps }: AppProps) {
             authUrl: "/api/auth", // API Route (default is - pages/api/auth/[...thirdweb].ts)
           }}
           clientId={process.env.NEXT_PUBLIC_THIRDWEB_API_KEY}
+          supportedWallets={[metamaskWallet()]}
         >
           <Nav />
           

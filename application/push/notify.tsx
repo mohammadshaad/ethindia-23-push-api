@@ -1,5 +1,5 @@
 import { PushAPI, CONSTANTS } from "@pushprotocol/restapi";
-
+  
 // PushAPI.initialize(signer, {options?});
 // signer - pass the signer from your app and set env to 'CONSTANTS.ENV.PROD' for mainnet app
 // options? - optional, can pass initialization parameters for customization
@@ -15,4 +15,4 @@ const response = await userAlice.channel.create({
 // userAlice.channel.send([recipients], {options?})
 const sendNotifRes = await userAlice.channel.send(["Test Channel"], {
   notification: { title: "test", body: "test" },
-});
+}); 

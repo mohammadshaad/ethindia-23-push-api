@@ -1,7 +1,8 @@
 import type { NextPage } from "next";
 import { useState } from "react";
 import { buttonVariants } from "@/components/ui/button";
-import Card  from "@/components/ui/EventsCard" 
+import Card  from "@/components/ui/EventsCard"
+import Channel from "@/components/ui/Channel"
 import Link from "next/link";
 import WalletConnection from "@/components/demo/WalletConnection";
 import UserAuthentication from "@/components/demo/UserAuthentication";
@@ -85,6 +86,7 @@ const Home: NextPage = () => {
         </div>
       </div> 
       < Card />
+      < Channel/>
     </div>
   );
 };
