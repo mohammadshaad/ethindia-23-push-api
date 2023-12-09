@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import { useState } from "react";
 import { buttonVariants } from "@/components/ui/button";
+import Card  from "@/components/ui/EventsCard" 
 import Link from "next/link";
 import WalletConnection from "@/components/demo/WalletConnection";
 import UserAuthentication from "@/components/demo/UserAuthentication";
@@ -19,7 +20,7 @@ const Home: NextPage = () => {
 
   return (
     <div className="w-full mx-auto pr-8 pl-8 max-w-7xl relative pb-10 mt-32">
-      <h1 className="text-4xl font-extrabold tracking-tight lg:text-5xl mb-4">
+       <h1 className="text-4xl font-extrabold tracking-tight lg:text-5xl mb-4">
         EVM Kit{" "}
         <span
           className="text-4xl font-extrabold tracking-tight lg:text-5xl mb-4
@@ -55,6 +56,7 @@ const Home: NextPage = () => {
           <h2 className="scroll-m-20 pb-2 text-3xl font-semibold tracking-tight transition-colors mt-2">
             What&rsquo;s Included?
           </h2>
+          
           <p className="leading-7 mt-2">
             Explore the features of EVM Kit below.
           </p>
@@ -81,7 +83,8 @@ const Home: NextPage = () => {
         >
           {activeTab.component}
         </div>
-      </div>
+      </div> 
+      < Card />
     </div>
   );
 };

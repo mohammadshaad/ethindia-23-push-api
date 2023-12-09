@@ -14,6 +14,7 @@
     "postinstall": "node postinstall.mjs"
   },
   "dependencies": {
+    "@pushprotocol/restapi": "^1.4.45",
     "@radix-ui/react-checkbox": "1.0.3",
     "@radix-ui/react-slot": "^1.0.2",
     "@thirdweb-dev/auth": "^3.0.21",

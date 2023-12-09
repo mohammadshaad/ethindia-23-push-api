@@ -2,6 +2,7 @@ import { ThirdwebProvider } from "@thirdweb-dev/react";
 import { CHAIN } from "../const/chains";
 import { Inter } from "next/font/google";
 import { Nav } from "../components/Navbar";
+
 import Head from "next/head";
 import "../styles/globals.css";
 import type { AppProps } from "next/app";
@@ -29,6 +30,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           clientId={process.env.NEXT_PUBLIC_THIRDWEB_API_KEY}
         >
           <Nav />
+          
           <Component {...pageProps} />
         </ThirdwebProvider>
       </main>
