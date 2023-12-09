@@ -16,7 +16,7 @@ export default function ContractInteraction() {
     "greet"
   ); // Type-safe view name
   const { mutateAsync: setGreeting, isLoading: settingGreeting } =
-    useContractWrite(contract, "setGreeting"); // Type-safe function name and args
+    useContractWrite(contract, "createEvents  "); // Type-safe function name and args
 
   return (
     <div className="mb-4 flex flex-col items-start flex-wrap">
