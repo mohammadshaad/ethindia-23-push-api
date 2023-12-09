@@ -12,8 +12,10 @@ const config: HardhatUserConfig = {
     },
   },
   networks: {
-    hardhat: {
-      chainId: 1337,
+    scrollSepolia: {
+      chainId: 534351,
+      url: "https://sepolia-rpc.scroll.io/" || "",
+      
     },
   },
 };
