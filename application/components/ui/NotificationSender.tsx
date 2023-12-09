@@ -10,7 +10,7 @@ const NotificationSender = ({ onNotificationSent }) => {
     const handleSendNotification = async () => {
         try {
             // Assuming userAlice.channel.send is an asynchronous function
-            const sendNotifRes = await userAlice.channel.send(["*"], {
+            const sendNotifRes = await /.channel.send(["*"], {
                 notification: { title: "test", body: notificationBody },
             });
 

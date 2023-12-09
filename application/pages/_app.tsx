@@ -1,8 +1,19 @@
-import { ThirdwebProvider } from "@thirdweb-dev/react";
+import {
+  ThirdwebSDKProvider,
+  metamaskWallet,
+  coinbaseWallet,
+  walletConnect,
+} from "@thirdweb-dev/react";
 import { CHAIN } from "../const/chains";
 import { Inter } from "next/font/google";
 import { Nav } from "../components/Navbar";
+import Channel from "../components/ui/Channel"
+import { LocalWallet } from "@thirdweb-dev/wallets";
+import { Goerli } from "@thirdweb-dev/chains";
+import { Signer } from "ethers";
 
+import Button from "../components/demo/WalletConnection"
+import React, {useState, useEffect} from 'react'
 import Head from "next/head";
 import "../styles/globals.css";
 import type { AppProps } from "next/app";
@@ -10,6 +21,21 @@ import type { AppProps } from "next/app";
 const inter = Inter({ subsets: ["latin"] });
 
 function MyApp({ Component, pageProps }: AppProps) {
+  const [signer, setSigner] = useState<Signer | null>(null);
+
+  // in this example we just generate a random wallet
+  useEffect(() => {
+    const generateWallet = async () => {
+      const localWallet = new LocalWallet({
+        chain: Goerli,
+      });
+      localWallet.generate();
+      localWallet.connect();
+      setSigner(await localWallet.getSigner());
+    };
+    generateWallet();
+  }, []);
+
   return (
     <div className={inter.className}>
       <Head>
@@ -19,21 +45,16 @@ function MyApp({ Component, pageProps }: AppProps) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <ThirdwebProvider
-          // Set active chain for app
-          activeChain={CHAIN}
-          // Auth (SIWE) configuration
-          authConfig={{
-            domain: process.env.NEXT_PUBLIC_AUTH_DOMAIN || "evmkit.com", // Your website domain
-            authUrl: "/api/auth", // API Route (default is - pages/api/auth/[...thirdweb].ts)
-          }}
-          clientId={process.env.NEXT_PUBLIC_THIRDWEB_API_KEY}
-          supportedWallets={[metamaskWallet()]}
+        <ThirdwebSDKProvider
+          activeChain={Goerli}
+          signer={signer}
+          clientId="your-client-id"
         >
           <Nav />
-          
-          <Component {...pageProps} />
-        </ThirdwebProvider>
+          <Button />
+          <Channel signer={signer} />
+          {/* <Component {...pageProps} /> */}
+        </ThirdwebSDKProvider>
       </main>
     </div>
   );
