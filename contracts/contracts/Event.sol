@@ -24,27 +24,27 @@ contract Event {
         uint256 _date,
         uint256 _price
     ) public returns (uint256) {
-        Campaign storage campaign = campaigns[numberOfEvents];
+        EventDS storage eventi = events[numberOfEvents];
 
         require(
-            events.deadline < block.timestamp,
+            eventi.date < block.timestamp,
             "The event date must be in the future"
         );
 
-        events.owner = _owner;
-        events.title = _title;
-        events.description = _description;
-        events.date  = _date;
-        events.price = _price;
-        events.amountCollected = 0;
+        eventi.owner = _owner;
+        eventi.title = _title;
+        eventi.description = _description;
+        eventi.date  = _date;
+        eventi.price = _price;
+        eventi.amountCollected = 0;
 
         numberOfEvents++;
 
         return numberOfEvents - 1;
     }
 
-    function payToEvent(uint256 _id, string _name) public payable {
-        uint256 amount = events.price;
+    function payToEvent(uint256 _id, string memory _name) public payable {
+        uint256 amount = events[_id].price;
 
         EventDS storage eventi = events[_id];
         eventi.registrations.push(msg.sender);
@@ -62,7 +62,7 @@ contract Event {
     function getEventAttendees(
         uint256 _id
     ) public view returns (address[] memory, string[] memory) {
-        return (events[_id].registrations, campaigns[_id].nameOfAttendees);
+        return (events[_id].registrations, events[_id].nameOfAttendees);
     }
 
     function getEvents() public view returns (EventDS[] memory){
