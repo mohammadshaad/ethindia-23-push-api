@@ -47,10 +47,9 @@ DeCohere offers secure, censorship-resistant communication for activists and pol
 
 ## Tech Stack
 
-- **Blockchain**: Ethereum, Solidity.
-- **Frontend**: React, HTML, CSS.
-- **Deployment**: Your Deployment Platform.
-- **Infrastructure as Code**: Your IaC Solution.
+- **Blockchain**: Ethereum, Solidity, FileCoin, Push Protocol, Scroll, ThirdWeb
+- **Frontend**: React, TailwindCSS, Next.js
+- **Deployment**: Scroll
 
 
 
