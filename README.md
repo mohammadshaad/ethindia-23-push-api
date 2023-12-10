@@ -21,6 +21,7 @@
 <p align="center">
     DeCohere provides a decentralized, censorship-resistant platform for activists and policy journalists, empowering them to organize events, collaborate transparently, and communicate securely. Leveraging blockchain technology, DeCohere ensures data integrity, protecting against manipulation and censorship often associated with centralized platforms. Seamlessly streamlining activism logistics, it amplifies individual impact, preserving the authenticity of messages in the relentless pursuit of justice.
     <br />
+</br />
     <a href="your-decohere-design-specification-link"><strong>Explore the design specification »</strong></a>
     <br />
     <a href="https://github.com/mohammadshaad/ethindia-23-push-api"><strong>View deployed platform »</strong></a>
@@ -36,21 +37,21 @@
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Getting Started](#installation)
-- [Future Scope](#future-scope)
 - [Contributing](#contributing)
 - [Support](#support-and-contact)
 - [License](#license)
 
 ## Features
 
-DeCohere offers secure, censorship-resistant communication for activists and policy journalists, allowing seamless event organization, transparent collaboration, and real-time communication. Supported platforms include [List your supported platforms](): **Platform1, Platform2, Platform3**. The decentralized platform ensures data integrity through blockchain, safeguarding against manipulation and censorship, thereby empowering users to make an impact while preserving message authenticity.
+DeCohere addresses pressing issues in contemporary civic journalism and social activism by delivering a secure, censorship-resistant platform. Leveraging blockchain, it ensures data integrity, thwarting manipulation and censorship risks linked to centralized platforms. Activists and policy journalists benefit from streamlined event organization, transparent collaboration, and real-time communication, all safeguarded by DeCohere's privacy measures. This technical solution empowers users to amplify their impact securely and uphold the authenticity of their messages in the face of potential threats, fortifying the relentless pursuit of justice.
+
+Tired of tedious event registrations? Our web3 platform revolutionizes the process. Pay with ETH for swift, secure transactions—no traditional banking hassles. Thanks to Push Protocol, get real-time updates seamlessly. No more email checks; everything you need, delivered to your device. Say goodbye to slow, frustrating registrations—embrace a faster, secure, and connected event experience.
 
 ## Tech Stack
 
 - **Blockchain**: Ethereum, Solidity, FileCoin, Push Protocol, Scroll, ThirdWeb
 - **Frontend**: React, TailwindCSS, Next.js
 - **Deployment**: Scroll
-
 
 
 ## Getting Started
@@ -101,16 +102,6 @@ yarn build
 
 You'll now be able to view your application at [http://localhost:3000](http://localhost:3000).
 
-## Future Scope 
-
-| Feature                            | Description                                                                                                                       | Status                    |
-| ---------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | ------------------------- |
-| **Localized Currency and Deal Analysis** | Provide users with the option to choose localized currencies based on their regions. Implement a system to analyze and highlight special deals, discounts, or promotions from various retailers. | <ul><li>[ ] To Do</li></ul> |
-| **Integration with Shopping Lists** | Enable users to create, manage, and organize shopping lists within the application. Implement notifications for significant price changes. | <ul><li>[ ] To Do</li></ul> |
-| **Price History Visualization**    | Include a graphical representation of the price history for products, allowing users to visually track trends and fluctuations.       | <ul><li>[ ] To Do</li></ul> |
-| **Drop Probability Analysis**      | Integrate a feature that estimates the probability of a price drop in the near future based on current price and historical data.      | <ul><li>[ ] To Do</li></ul> |
-| **Price Change Alerts**            | Implement a feature for users to set price change alerts. Users receive notifications when the price drops below a predefined threshold. | <ul><li>[ ] To Do</li></ul> |
-
 
 ## Contributing
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -150,4 +141,3 @@ if (youEnjoyed) {
 
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-swag.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/powered-by-coffee.svg)](https://forthebadge.com)
-
