@@ -22,20 +22,12 @@
     <br />
 </br />
 
-|                     |                                                                                          |  
-| -------------------------- | --------------------------------------------------------------------------------------------------- | 
-| 1. Deployed Contract Address |<a href="https://sepolia.scrollscan.com/address/0xaD98E636f9bE52841F6009e66C91719f2c0057D1"><strong>View deployed platform »</strong></a>      |
+|                     |                                                                                          |  |
+| -------------------------- | --------------------------------------------------------------------------------------------------- | ---------------- |
+| 1. Deployed Contract Address |<a href="https://sepolia.scrollscan.com/address/0xaD98E636f9bE52841F6009e66C91719f2c0057D1"><strong>View deployed platform</strong></a> |   0xaD98E636f9bE52841F6009e66C91719f2c0057D1   |
+| 2. View Video Demo |<a href="https://youtu.be/muhqTFZ_dy8?feature=shared"><strong>View Demo Video </strong></a> |   YouTube Video   |
+| 3. Explore the design specification |<a href="https://www.figma.com/file/sTCNsSDP2ny9ZF9syAo6Fq/ETHIndia'23?type=design&node-id=0%3A1&mode=design&t=OhUW6qNQU91F6C2V-1"><strong>Design Link </strong></a> |   See the designs   |
 
-    <a href="your-decohere-design-specification-link"><strong>Explore the design specification »</strong></a>
-    <br />
-    <a href="https://sepolia.scrollscan.com/address/0xaD98E636f9bE52841F6009e66C91719f2c0057D1"><strong>View deployed platform »</strong></a>
-    <br />
-    <a href="https://youtu.be/muhqTFZ_dy8">View Video Demo</a>
-    ·
-    <a href="your-decohere-backend-api-docs-link">Check backend API docs</a>
-    ·
-    <a href="https://github.com/mohammadshaad/ethindia-23-push-api/issues">Request Feature</a>
-</p>
 
 # Table of Contents
 
