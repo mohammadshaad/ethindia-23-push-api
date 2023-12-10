@@ -44,7 +44,7 @@
 
 ## Features
 
-DeCohere addresses pressing issues in contemporary civic journalism and social activism by delivering a secure, censorship-resistant platform. Leveraging blockchain, it ensures data integrity, thwarting manipulation and censorship risks linked to centralized platforms. Activists and policy journalists benefit from streamlined event organization, transparent collaboration, and real-time communication, all safeguarded by DeCohere's privacy measures. This technical solution empowers users to amplify their impact securely and uphold the authenticity of their messages in the face of potential threats, fortifying the relentless pursuit of justice.
+DeCohere addresses pressing issues in contemporary civic journalism and social activism by delivering a secure, censorship-resistant platform. Leveraging blockchain, it ensures data integrity, thwarting manipulation and censorship risks linked to centralized platforms. Activists and policy journalists benefit from streamlined event organization, transparent collaboration, and real-time communication, all safeguarded by DeCohere's privacy measures. This solution empowers users to amplify their impact securely and uphold the authenticity of their messages in the face of potential threats, fortifying the relentless pursuit of justice.
 
 Tired of tedious event registrations? Our web3 platform revolutionizes the process. Pay with ETH for swift, secure transactions—no traditional banking hassles. Thanks to Push Protocol, get real-time updates seamlessly. No more email checks; everything you need, delivered to your device. Say goodbye to slow, frustrating registrations—embrace a faster, secure, and connected event experience.
 
