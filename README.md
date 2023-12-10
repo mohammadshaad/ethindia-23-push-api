@@ -16,7 +16,7 @@
   </a>
 </p>
 
-## <p align="center">Revolutionizing Civic Journalism and Social Activism</p>
+## <p align="center">Revolutionizing Civic Journalism through Social Activism</p>
 
 <p align="center">
     DeCohere provides a decentralized, censorship-resistant platform for activists and policy journalists, empowering them to organize events, collaborate transparently, and communicate securely. Leveraging blockchain technology, DeCohere ensures data integrity, protecting against manipulation and censorship often associated with centralized platforms. Seamlessly streamlining activism logistics, it amplifies individual impact, preserving the authenticity of messages in the relentless pursuit of justice.
