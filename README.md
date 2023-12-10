@@ -13,10 +13,9 @@
   <a href="https://github.com/mohammadshaad/ethindia-23-push-api">		  
     <img src="https://github.com/mohammadshaad/ethindia-23-push-api/assets/65449934/4522ef1c-8463-4a5c-86ac-bb5c627e4a0a" alt="Logo" width="120" />
 
-# 
-    [DeCohere ](https://github.com/mohammadshaad/ethindia-23-push-api)
+# <p align="center">DeCohere</p>
 
-## Revolutionizing Civic Journalism through Social Activism
+## <p align="center">Revolutionizing Civic Journalism through Social Activism</p>
 
 <p align="center">
     DeCohere provides a decentralized, censorship-resistant platform for activists and policy journalists, empowering them to organize events, collaborate transparently, and communicate securely. Leveraging blockchain technology, DeCohere ensures data integrity, protecting against manipulation and censorship often associated with centralized platforms. Seamlessly streamlining activism logistics, it amplifies individual impact, preserving the authenticity of messages in the relentless pursuit of justice.
