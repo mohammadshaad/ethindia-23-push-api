@@ -37,6 +37,7 @@
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Getting Started](#installation)
+- [Future Scope](#future-scope)
 - [Contributing](#contributing)
 - [Support](#support-and-contact)
 - [License](#license)
@@ -101,6 +102,16 @@ yarn build
 ```
 
 You'll now be able to view your application at [http://localhost:3000](http://localhost:3000).
+
+## Future Scope 
+
+| Feature                            | Description                                                                                                                       | Status                    |
+| ---------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | ------------------------- |
+| **Localized Currency and Deal Analysis** | Provide users with the option to choose localized currencies based on their regions. Implement a system to analyze and highlight special deals, discounts, or promotions from various retailers. | <ul><li>[ ] To Do</li></ul> |
+| **Integration with Shopping Lists** | Enable users to create, manage, and organize shopping lists within the application. Implement notifications for significant price changes. | <ul><li>[ ] To Do</li></ul> |
+| **Price History Visualization**    | Include a graphical representation of the price history for products, allowing users to visually track trends and fluctuations.       | <ul><li>[ ] To Do</li></ul> |
+| **Drop Probability Analysis**      | Integrate a feature that estimates the probability of a price drop in the near future based on current price and historical data.      | <ul><li>[ ] To Do</li></ul> |
+| **Price Change Alerts**            | Implement a feature for users to set price change alerts. Users receive notifications when the price drops below a predefined threshold. | <ul><li>[ ] To Do</li></ul> |
 
 
 ## Contributing
