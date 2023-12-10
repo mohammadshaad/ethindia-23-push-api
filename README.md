@@ -21,6 +21,11 @@
     DeCohere provides a decentralized, censorship-resistant platform for activists and policy journalists, empowering them to organize events, collaborate transparently, and communicate securely. Leveraging blockchain technology, DeCohere ensures data integrity, protecting against manipulation and censorship often associated with centralized platforms. Seamlessly streamlining activism logistics, it amplifies individual impact, preserving the authenticity of messages in the relentless pursuit of justice.
     <br />
 </br />
+
+|                     |                                                                                          |  
+| -------------------------- | --------------------------------------------------------------------------------------------------- | 
+| 1. Deployed Contract Address |<a href="https://sepolia.scrollscan.com/address/0xaD98E636f9bE52841F6009e66C91719f2c0057D1"><strong>View deployed platform »</strong></a>      |
+
     <a href="your-decohere-design-specification-link"><strong>Explore the design specification »</strong></a>
     <br />
     <a href="https://sepolia.scrollscan.com/address/0xaD98E636f9bE52841F6009e66C91719f2c0057D1"><strong>View deployed platform »</strong></a>
