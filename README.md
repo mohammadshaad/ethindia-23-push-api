@@ -23,7 +23,7 @@
 </br />
     <a href="your-decohere-design-specification-link"><strong>Explore the design specification »</strong></a>
     <br />
-    <a href="https://github.com/mohammadshaad/ethindia-23-push-api"><strong>View deployed platform »</strong></a>
+    <a href="https://sepolia.scrollscan.com/address/0xaD98E636f9bE52841F6009e66C91719f2c0057D1"><strong>View deployed platform »</strong></a>
     <br />
     <a href="https://youtu.be/muhqTFZ_dy8">View Video Demo</a>
     ·
