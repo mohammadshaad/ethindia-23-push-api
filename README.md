@@ -1,6 +1,7 @@
 <div id="top"></div>
 
 <!-- PROJECT SHIELDS -->
+
 <!--
 *** Thanks for checking out the DeCohere project. If you have a suggestion
 *** that would make this better, please fork the repo and create a pull request
@@ -11,12 +12,10 @@
 <p align="center">
   <a href="https://github.com/mohammadshaad/ethindia-23-push-api">		  
     <img src="https://github.com/mohammadshaad/ethindia-23-push-api/assets/65449934/4522ef1c-8463-4a5c-86ac-bb5c627e4a0a" alt="Logo" width="120">
-    
-# <p align="center">DeCohere</p>
-  </a>
-</p>
 
-## <p align="center">Revolutionizing Civic Journalism through Social Activism</p>
+# [`<p align="center">`DeCohere`</p>`](https://github.com/mohammadshaad/ethindia-23-push-api)
+
+## `<p align="center">`Revolutionizing Civic Journalism through Social Activism`</p>`
 
 <p align="center">
     DeCohere provides a decentralized, censorship-resistant platform for activists and policy journalists, empowering them to organize events, collaborate transparently, and communicate securely. Leveraging blockchain technology, DeCohere ensures data integrity, protecting against manipulation and censorship often associated with centralized platforms. Seamlessly streamlining activism logistics, it amplifies individual impact, preserving the authenticity of messages in the relentless pursuit of justice.
@@ -34,6 +33,7 @@
 </p>
 
 # Table of Contents
+
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Getting Started](#installation)
@@ -53,7 +53,6 @@ Tired of tedious event registrations? Our web3 platform revolutionizes the proce
 - **Blockchain**: Ethereum, Solidity, FileCoin, Push Protocol, Scroll, ThirdWeb
 - **Frontend**: React, TailwindCSS, Next.js
 - **Deployment**: Scroll
-
 
 ## Getting Started
 
@@ -103,18 +102,15 @@ yarn build
 
 You'll now be able to view your application at [http://localhost:3000](http://localhost:3000).
 
-## Future Scope 
+## Future Scope
 
-| Feature                            | Description                                                                                                                       | Status                    |
-| ---------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | ------------------------- |
-| **Localized Currency and Deal Analysis** | Provide users with the option to choose localized currencies based on their regions. Implement a system to analyze and highlight special deals, discounts, or promotions from various retailers. | <ul><li>[ ] To Do</li></ul> |
-| **Integration with Shopping Lists** | Enable users to create, manage, and organize shopping lists within the application. Implement notifications for significant price changes. | <ul><li>[ ] To Do</li></ul> |
-| **Price History Visualization**    | Include a graphical representation of the price history for products, allowing users to visually track trends and fluctuations.       | <ul><li>[ ] To Do</li></ul> |
-| **Drop Probability Analysis**      | Integrate a feature that estimates the probability of a price drop in the near future based on current price and historical data.      | <ul><li>[ ] To Do</li></ul> |
-| **Price Change Alerts**            | Implement a feature for users to set price change alerts. Users receive notifications when the price drops below a predefined threshold. | <ul><li>[ ] To Do</li></ul> |
-
+| Feature                    | Description                                                                                         | Status |
+| -------------------------- | --------------------------------------------------------------------------------------------------- | ------ |
+| 1. Random Event Allocation | In a congregation of events, we can random put the events in order, making it more decentralized    |        |
+| 2. Polling                 | We would be adding this in our future prospects as we need to respect the ideas of each individuals |        |
 
 ## Contributing
+
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
@@ -133,12 +129,12 @@ For any questions, suggestions, or issues, please contact:
 - **Salma Shaik**
   - GitHub: [IdealisticINTJ](https://github.com/IdealisticINTJ)
   - Email: [salmasaa02@gmail.com](mailto:salmasaa02@gmail.com)
-    
+
 ## License
+
 This project is licensed under the [Apache License](LICENSE).
 
-
----------
+---
 
 ```javascript
 
@@ -148,7 +144,6 @@ if (youEnjoyed) {
 
 ```
 
------------
-
+---
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-swag.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/powered-by-coffee.svg)](https://forthebadge.com)
