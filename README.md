@@ -127,6 +127,17 @@ For any questions, suggestions, or issues, please contact:
   - GitHub: [IdealisticINTJ](https://github.com/IdealisticINTJ)
   - Email: [salmasaa02@gmail.com](mailto:salmasaa02@gmail.com)
 
+
+- **Spandan Mukherjee**
+  - GitHub: [SpandanM110](https://github.com/SpandanM110)
+  - Email: [spandanmukherjeegithub@gmail.com](mailto:spandanmukherjeegithub@gmail.com)
+
+
+- **Shaikh Rumman Fardeen**
+  - GitHub: [Srummanf](https://github.com/srummanf)
+  - Email: [rummanfardeen4567@gmail.com](mailto:rummanfardeen4567@gmail.com)
+
+
 ## License
 
 This project is licensed under the [Apache License](LICENSE).
